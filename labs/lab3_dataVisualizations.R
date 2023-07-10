@@ -1,9 +1,11 @@
 # load required packages
 library(ggplot2)
 
-readableSetName <- "data/imdbDataset.csv"
+
+readableSetName <- "data/imbdDataset.csv"
 set <- read.csv(readableSetName)
 View(set)
+
 
 #1
 ggplot(data = set, aes(x = release_year)) +
