@@ -4,7 +4,7 @@ View(set)
 
 
 
-# gross analysis ####
+## gross analysis ####
 gross <- na.omit(set$gross.M.)
 
 meanGross <- mean(gross)
@@ -15,7 +15,7 @@ varianceGross <- var(gross)
 interQuartileRange = IQR(gross)
 
 
-#outliers removed analysis ####
+##outliers removed analysis ####
 
 #threshhold calculation
 lower <- meanGross - 3 * standardDeviationGross
