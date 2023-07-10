@@ -1,11 +1,11 @@
-readableSetName <- "data/imbd.csv"
+readableSetName <- "data/imbdDataset.csv"
 set <- read.csv(readableSetName)
 View(set)
 
 
 
 # gross analysis ####
-gross <- na.omit(set$gross)
+gross <- na.omit(set$gross.M.)
 
 meanGross <- mean(gross)
 medianGross <- median(gross)
