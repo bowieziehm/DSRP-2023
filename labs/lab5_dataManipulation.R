@@ -26,7 +26,7 @@ summarize(set,
 #5. arrange() - random reordering of data set practice
 arrange(select(set, gross.M., runtime), desc(runtime))
 
-#6.
-ggplot(data = set, aes(x = year, y = rating_on_100_scale)) +
-  geom_bar() +
-  labs(x = "Rating (0-100)", y = "Genre")
+#6.cool visualization using updated data set
+ggplot(data = set, aes(x = rating_on_100_scale, y = gross.M.)) +
+  geom_point() +
+  labs(x = "Rating (0-100)", y = "Gross")
