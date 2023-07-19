@@ -132,6 +132,7 @@ yardstick::rmse(moviePred, truth = gross.M., estimate = linReg)
 
 
 ## Boosted Decision Trees
+
 # Regression
 boostPred <- reg_test
 boostPred$logReg <- predict(boost_tree_fit, reg_test)$.pred
