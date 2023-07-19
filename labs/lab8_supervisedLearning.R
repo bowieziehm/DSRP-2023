@@ -130,7 +130,6 @@ yardstick::mae(moviePred, truth = gross.M., estimate = linReg)
 
 yardstick::rmse(moviePred, truth = gross.M., estimate = linReg)
 
-# Boosted Decision Trees 
 
 ## Boosted Decision Trees
 # Regression
